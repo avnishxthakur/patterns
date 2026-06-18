@@ -2,7 +2,7 @@ class pattern3 {
     public void pattern3(int n){
         for (int i = 0; i < n ; i++){
             for(int j = 1; j<= i ; j++){
-                System.out.print(i + " ");
+                System.out.print(i + " ");//printing the row number 
             }
             System.out.println();
         }
